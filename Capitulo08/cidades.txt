@@ -1,0 +1,11 @@
+SP; SÃ£o Paulo; 11895893
+RJ; Rio de Janeiro; 6453682
+BA; Salvador; 2902927
+DF; BrasÃ­lia; 2852372
+CE; Fortaleza; 2571896
+MG; Belo Horizonte; 2491109
+AM; Manaus; 2020301
+PR; Curitiba; 1864416
+RJ; São Gonçalo; 1031903
+AL; Maceió; 1000
+RJ; Duque de Caxais; 8999
