@@ -1,0 +1,22 @@
+h1 {
+    background-color: green;
+    font-size: 100px;
+    font-family: 'Courier New', Courier, monospace;
+}
+h2 {
+    background-color: yellow;
+    font-size: 100px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+    background-color: red;
+}
+
+#primeiro {
+    background-color: blue;
+}
+
+.escolhido {
+    background-color: green;
+}
