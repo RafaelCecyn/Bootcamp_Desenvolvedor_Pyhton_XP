@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos - Aula 3</title>
+</head>
+<body onLoad="load()">
+    <!-- onChange
+    onClick
+    onLoad
+    onMouseOver
+    onMouseOut
+    onSubmit -->
+
+    <!-- <input onChange="change()" type="text" id="ip"> -->
+    <!-- <input type="text" id="ip"> -->
+    <!-- <button onClick="clicar()">Enviar</button> -->
+
+    <!-- <img onMouseOver="mouseOver()" src="" alt="Praia" id="img1"> -->
+    <img onMouseOut="mouseOut()" src="" alt="Praia" id="img1">
+    <form onSubmit="sub()">
+        <input type="text" id="ip">
+        <input type="submit">
+    </form>
+
+    <script>
+        function change() {
+            alert("Algo mudou!");
+        }
+        function clicar() {
+            alert(document.getElementById("ip").value)
+        }
+        function load() {
+            document.getElementById('img1').src ="./adr.jpg"
+        }
+        function mouseOver() {
+            document.getElementById('img1').src ="./adr2.jpg"
+        }
+        function mouseOut() {
+            document.getElementById('img1').src ="./adr2.jpg"
+        }
+        function sub () {
+            alert(document.getElementById("ip").value)
+        }
+    </script>
+</body>
+</html>
